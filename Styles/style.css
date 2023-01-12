@@ -280,6 +280,16 @@ footer{
         width: 100%;
 
     }
+    .donate-plan-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        margin: 20px;
+    }
+    .donate-plan-description{
+        width: 70%;
+        
+    }
     .amount{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
